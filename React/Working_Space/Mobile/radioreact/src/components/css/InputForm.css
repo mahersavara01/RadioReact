@@ -1,0 +1,27 @@
+input[type="text"]:focus {
+   
+   outline: none;
+  border-bottom: 2px solid black;
+}
+input[type="password"]:focus  {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.quenmatkhau {
+    max-width: 80%;
+    margin-top: 2%;
+    margin-left: 44%;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.userName,.userPass {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-right: 58%;
+    /* ? co ve max-With khong neccessary cho lam */
+    max-width: 80%;
+}
+
+
